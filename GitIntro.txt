@@ -1,0 +1,80 @@
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+git name AaronDavisG
+
+Step 1: Create a local git repository
+
+  make a project folder
+
+    C:\Users\aaron\OneDrive>cd desktop
+    C:\Users\aaron\OneDrive\Desktop> mkdir myproject
+    C:\Users\aaron\OneDrive\Desktop> cd myproject
+    C:\Users\aaron\OneDrive\Desktop\myproject>
+
+  initialize a git repository in the root of the folder
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>git init
+      Initialized empty Git repository in C:/Users/aaron/OneDrive/Desktop/myproject/.git/
+
+Step 2: Add a new file to the repo
+
+  make a new file in project folder
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>notepad myFile.txt
+
+  you can use the git status command to see which files git knows exist
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>git status
+      On branch master
+      
+      No commits yet
+      
+      Untracked files:
+        (use "git add <file>..." to include in what will be committed)
+              myFile.txt
+      
+      nothing added to commit but untracked files present (use "git add" to track)
+
+Step 3: Add a file to the staging environment
+
+  add to staging
+
+    C:\Users\aaron\OneDrive\Desktop\myproject> git add myFile.txt
+
+  check status
+
+    C:\Users\aaron\OneDrive\Desktop\myproject> git status
+      On branch master
+      
+      No commits yet
+      
+      Changes to be committed:
+        (use "git rm --cached <file>..." to unstage)
+              new file:   myFile.txt
+
+Step 4: Create a commit
+
+  Run the command git commit -m "..."
+
+    C:\Users\aaron\OneDrive\Desktop\myproject> git commit -m "first commit"
+      [master (root-commit) f394970] first commit
+       1 file changed, 1 insertion(+)
+       create mode 100644 myFile.txt
+
+Step 5: Create a new branch
+
+  check current branch
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>git branch
+      * master
+
+  check out new branch
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>git checkout -b testBranch
+      Switched to a new branch 'testBranch'
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>git branch
+      master
+    * testBranch
+
+  
