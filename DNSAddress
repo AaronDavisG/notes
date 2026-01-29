@@ -1,0 +1,9 @@
+Windows 10/11 Method 
+Open Control Panel: Type "Control Panel" in the search bar and open it.
+Network and Internet: Select "Network and Sharing Center" and click on your connection (e.g., Wi-Fi or Ethernet).
+Properties: Click "Properties" and select "Internet Protocol Version 4 (TCP/IPv4)".
+Edit DNS: Select "Use the following DNS server addresses" and input new IP addresses.
+Google: \(8.8.8.8\) /\(8.8.4.4\)
+Cloudflare: \(1.1.1.1\) / \(1.0.0.1\)
+OpenDNS: \(208.67.222.222\) & \(208.67.220.220\) 
+Save: Click OK and close all windows. 
