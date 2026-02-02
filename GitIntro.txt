@@ -86,4 +86,56 @@ Step 6: Create a new repository on GitHub
 
   push an existing repository from the command line' section
 
+    C:\Users\aaron\OneDrive\Desktop\myproject>git remote add origin https://github.com/AaronDavisG/gitTestRepo.git
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>git branch -M main
+    
+    C:\Users\aaron\OneDrive\Desktop\myproject>git push -u origin main
+      Enumerating objects: 3, done.
+      Counting objects: 100% (3/3), done.
+      Writing objects: 100% (3/3), 232 bytes | 116.00 KiB/s, done.
+      Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+      To https://github.com/AaronDavisG/gitTestRepo.git
+       * [new branch]      main -> main
+      branch 'main' set up to track 'origin/main'.
+
+Step 7: Push a branch to GitHub
+
+  chechout test branch
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>git checkout -b testBranch
+      Switched to a new branch 'testBranch'
+
+  make changes to myFile.txt
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>notepad myFile.txt
+
+  add file to staging
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>git add myFile.txt
+
+  commit changes
+  
+    C:\Users\aaron\OneDrive\Desktop\myproject>git commit -m "testing a commit on a branch"
+      [testBranch 14eb34d] testing a commit on a branch
+       1 file changed, 1 insertion(+), 1 deletion(-)
+
+  git push origin
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>git push origin testBranch
+      Enumerating objects: 5, done.
+      Counting objects: 100% (5/5), done.
+      Writing objects: 100% (3/3), 275 bytes | 275.00 KiB/s, done.
+      Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+      remote:
+      remote: Create a pull request for 'testBranch' on GitHub by visiting:
+      remote:      https://github.com/AaronDavisG/gitTestRepo/pull/new/testBranch
+      remote:
+      To https://github.com/AaronDavisG/gitTestRepo.git
+       * [new branch]      testBranch -> testBranch
+
+  Step 8: Create a pull request (PR)
+
+
+  
   
