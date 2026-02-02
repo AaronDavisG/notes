@@ -77,4 +77,13 @@ Step 5: Create a new branch
       master
     * testBranch
 
+Step 6: Create a new repository on GitHub
+
+  Create a new repository on github
+
+  Owner/     Repository name
+  AaronDavisG gitTestRepo
+
+  push an existing repository from the command line' section
+
   
