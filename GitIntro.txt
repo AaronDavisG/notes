@@ -136,6 +136,31 @@ Step 7: Push a branch to GitHub
 
   Step 8: Create a pull request (PR)
 
+    click "compare & pull request"
+
+    add description
+
+    click "create pull request"
+
+Step 9: merge a pull request (pr)
+
+    click "merge pull request"
+
+    click "confirm merge"
+
+    pull rquest successfully merged and closed
+
+    click "Delete Branch"
+
+Step 10: Get changes on GitHub back to your computer
+
+  switch to main branch
+
+    C:\Users\aaron\OneDrive\Desktop\myproject>git checkout main
+      Switched to branch 'main'
+      Your branch is up to date with 'origin/main'.
+
+  
 
   
   
