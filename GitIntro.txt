@@ -160,7 +160,52 @@ Step 10: Get changes on GitHub back to your computer
       Switched to branch 'main'
       Your branch is up to date with 'origin/main'.
 
-  
+  pull origin main
 
+    C:\Users\aaron\OneDrive\Desktop\myproject>git pull origin main
+      remote: Enumerating objects: 8, done.
+      remote: Counting objects: 100% (8/8), done.
+      remote: Compressing objects: 100% (2/2), done.
+      remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+      Unpacking objects: 100% (4/4), 1.77 KiB | 100.00 KiB/s, done.
+      From https://github.com/AaronDavisG/gitTestRepo
+       * branch            main       -> FETCH_HEAD
+         f394970..4c4cf76  main       -> origin/main
+      Updating f394970..4c4cf76
+      Fast-forward
+       myFile.txt | 2 +-
+       1 file changed, 1 insertion(+), 1 deletion(-)
+
+  use git log to see commits
+
+`    C:\Users\aaron\OneDrive\Desktop\myproject>git log
+      commit 4c4cf76ece7830ee495382488b58a8fcc0f3c5d4 (HEAD -> main, origin/main)
+      Author: AaronDavisG <aaron.davis.g@gmail.com>
+      Date:   Mon Feb 2 12:52:52 2026 -0800
+      
+          Update content of myFile.txt
+      
+      commit be1ac49cc918a28dcf065d613763706798b4895b
+      Merge: f394970 14eb34d
+      Author: AaronDavisG <aaron.davis.g@gmail.com>
+      Date:   Mon Feb 2 12:22:56 2026 -0800
+      
+          Merge pull request #1 from AaronDavisG/testBranch
+      
+          testing a commit on a branch
+      
+      commit 14eb34dd574fd63e51d04490f66eedee7277288f (origin/testBranch, testBranch)
+      Author: AaronDavisG <aaron.davis.g@gmail.com>
+      Date:   Mon Feb 2 12:12:10 2026 -0800
+      
+          testing a commit on a branch
+      
+      commit f394970375eb3c724b84546f87ea1492beabb3d2 (master)
+      Author: AaronDavisG <aaron.davis.g@gmail.com>
+      Date:   Thu Jan 29 15:00:21 2026 -0800
+      
+          first commit
+
+  
   
   
