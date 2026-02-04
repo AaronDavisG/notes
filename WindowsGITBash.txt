@@ -1,0 +1,4 @@
+press [i] to enter inline insert mode
+write comments for commit
+press [esc] to escape insert mode
+type ":x!" and [enter] to save and exit
